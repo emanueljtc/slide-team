@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Slider Touch</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Team Desarrollo Web Total</h1>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/jm.jpg">
+          </div>
+          <div class="details">
+            <h3>Jose M. Ramirez<br><span>CEO</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/jd.jpg">
+          </div>
+          <div class="details">
+            <h3>Jose D. Chacon<br><span>CTO</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/bernarda.jpg">
+          </div>
+          <div class="details">
+            <h3>Bernarda Mendez<br><span>RHH</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/Leonelo.jpg">
+          </div>
+          <div class="details">
+            <h3>Leonelo Acában<br><span>Developer Frontend</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/Jesus.jpg">
+          </div>
+          <div class="details">
+            <h3>Jesus Leal<br><span>Developer Frontend</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/francisco.jpg">
+          </div>
+          <div class="details">
+            <h3>Francisco Garcia<br><span>Developer Backend</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/deibis.jpg">
+          </div>
+          <div class="details">
+            <h3>Deibis Contreras<br><span>Developer FullStack</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/cristian.jpg">
+          </div>
+          <div class="details">
+            <h3>Cristian Borjas<br><span>Developer FullStack</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/alejandro.jpg">
+          </div>
+          <div class="details">
+            <h3>Alejandro Monzón<br><span>Developer FullStack</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/emanuel.jpg">
+          </div>
+          <div class="details">
+            <h3>Emanuel Torres C.<br><span>Developer Frontend</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/johancy.jpg">
+          </div>
+          <div class="details">
+            <h3>Johancy Morales<br><span>Developer Backend</span></h3>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+  <!-- Scripts JS -->
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 60,
+        stretch: 0,
+        depth: 400,
+        modifier: 4,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+</body>
+
+</html>
